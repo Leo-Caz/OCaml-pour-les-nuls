@@ -134,7 +134,7 @@ Déclaration locales :
 ```ocaml
 (* Syntaxe : let <declr_1> = <expr_1> and ... and <declr_n> = <expr_n> in <expr_suivante>
    Il peut y avoir autant de `and` qu'on veut, y compris 0 *)
-let horraire_valide (heures, minutes, secondes) =
+let horaire_valide (heures, minutes, secondes) =
 	let in_range borne_min borne_max valeur =
 		borne_min <= valeur && valeur < borne_max
 	in
